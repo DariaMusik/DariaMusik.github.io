@@ -1,0 +1,42 @@
+body{
+    background-color: #bdbdbd;
+    
+}
+header a:hover{
+    color: #f5f5f5;
+}
+
+#bg-img{
+    background: url('../img/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 570px;
+}
+
+#About{
+    margin-top: -350px;
+}
+#About img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#Main{
+    margin-bottom: 10px;
+    margin-top: -400px;
+    margin left: 30px;
+    margin-right: 20px;
+    text-align: center;
+}
+#gallery{
+    margin: 5px 50px;
+    margin-left: 240px; 
+}
+#gallery img{
+    transition: 1s;
+    margin: 20px;
+}
+#gallery img:hover{
+    transform: scale(1.06);
+}
