@@ -1,21 +1,18 @@
 
 body{
-    background-color: #bdbdbd;
+    background-color: #d6d6d6;
     
 }
 header a:hover{
     color: #f5f5f5;
 }
 
-#bg-img{
-    background: url('../img/bg.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 570px;
+main{
+    height: 90%;
 }
 
 #About{
-    margin-top: -350px;
+    margin-top: -25%;
 }
 #About img{
     margin-bottom: 10px;
@@ -25,10 +22,10 @@ header a:hover{
 }
 #Main{
     margin-bottom: 10px;
-    margin-top: -400px;
-    margin left: 30px;
+    margin-left: 30px;
     margin-right: 20px;
     text-align: center;
+    margin-top: -25%;
 }
 #gallery{
     margin: 5px 50px;
@@ -42,11 +39,81 @@ header a:hover{
     transform: scale(1.06);
 }
 footer{
+    position: fixed;
+    bottom: 0;
     color:#fafafa;
-    margin-top: 150px;
+    height: 7%;
     padding-top: 20px;
-    background: #212121;
+    background: #4b4949;
+    width:100%;
 }
 #contact{
     font-size: 25px;
+}
+
+bg-blog{
+    width: 100%;
+}
+
+#bg-img{
+    background: url('../img/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 570px;
+}
+
+
+.single-blog{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.single-blog img{
+    width: 100%;
+}
+
+.blog-meta{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.single-blog span{
+    float: right;
+    font-size: 12px;
+    color: #6e7474;
+}
+
+.blog-text{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.single-blog a:hover{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #9e6443;
+}
+
+.single-blog a{
+    color: #792f1d;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.read-more-btn{
+   background-image: linear-gradient(to right, #471906,#8b5523);
+   padding: 5px 12px 8px;
+   border-radius: 20px;
+   font-size: 14px;
+   color: #fff!important;
+   border: none!important;
+}
+
+.read-more-btn:hover{
+    background-image: linear-gradient(to right, #8a4c31,#c4986f);
+    text-decoration: none;
+    color: #fff!important;
 }
